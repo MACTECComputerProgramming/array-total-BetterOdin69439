@@ -1,0 +1,25 @@
+﻿<Window x:Class="Array_Total.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Array_Total"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="grade1" HorizontalAlignment="Left" Height="20" Margin="85,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"/>
+        <TextBox x:Name="grade2" HorizontalAlignment="Left" Margin="85,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="grade3" HorizontalAlignment="Left" Margin="85,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="grade4" HorizontalAlignment="Left" Margin="85,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="grade5" HorizontalAlignment="Left" Margin="85,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <Label Content="Grade 1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="Grade 2" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="Grade 3" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="Grade 4" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="Grade 5" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="61"/>
+        <Label x:Name="labelTotalGrade" Content="Total Grade" HorizontalAlignment="Left" Margin="433,71,0,0" VerticalAlignment="Top" Width="131"/>
+        <Label x:Name="labelAvgGrade" Content="Average Grade" HorizontalAlignment="Left" Margin="433,164,0,0" VerticalAlignment="Top" Width="131"/>
+        <Button x:Name="button1" Content="Get Grades" HorizontalAlignment="Left" Margin="95,279,0,0" VerticalAlignment="Top" Height="32" Width="111" Click="button1_Click"/>
+
+    </Grid>
+</Window>
